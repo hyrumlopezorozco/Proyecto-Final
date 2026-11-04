@@ -9,6 +9,7 @@ Hyrum , 11/3/2026
 print("\n=== Mensaje de bienvenida ===")
 print("1. Calcular distancia")
 print("2. Salir")
+print("=============================")
 
 # 2. Pedir al usuario que elija una opción del menú
 opcion = input("Elige una opción: ")
