@@ -1,6 +1,7 @@
 """
 main.py -  
-Hyrum, 11/3/2026
+Hyrum Orozco y Delside Manjarrez, 11/3/2026
+
 
 """
 
