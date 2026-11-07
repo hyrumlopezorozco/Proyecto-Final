@@ -1,7 +1,7 @@
 """
 main.py -  
 Hyrum , 11/3/2026
-
+Delside Manjarrez
 """
 
 # 1. Menú principal
