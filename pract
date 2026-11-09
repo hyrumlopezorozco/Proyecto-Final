@@ -1,0 +1,57 @@
+# 1. Menú principal
+# Pueden agregar más opciones después
+print("\n=== Mensaje de bienvenida ===")
+print("Bienvenido al sistema de ayuda comunitaria.")
+print("Por favor, elija una opción del menú:")
+print("1. Pedir ayuda")
+print("2. Registrarse")
+print("3. Salir")
+
+# 2. Pedir al usuario que elija una opción del menú
+opcion = input("Elige una opción: ")
+
+# 3. Si elige 1 pedir codigo postal y que clase de ayuda necesita; elif salida adiós.
+if opcion == "1":
+    # 4. Dentro del 1 tenemos que pedir que clase de ayuda necesita.
+    print("\n--- Solicitar Ayuda ---")
+    codigo_postal = input("Ingrese su código postal: ") 
+    clase_ayuda = input("¿Qué clase de ayuda necesita? ")   
+    # mostrar resumen
+    print("\n--- Resumen ---")
+    print(f"Código Postal: {codigo_postal}")
+    print(f"Clase de ayuda: {clase_ayuda}")
+
+    
+    # 5. Luego le dara una lista de rescursos... ¿cómo? ayuda en la comunidad.
+    # con la API de OpenWeatherMap base de datos de ayudas en la comunidad.
+    print("Consultando datos...")
+
+    # 6. try except
+
+    pass
+
+if opcion == "1":
+    # entrada de datos del usuario
+    codigo_postal = input("Ingrese su código postal: ")
+   
+
+    # Mostrar resumen
+    print("\n--- Resumen ---")
+    print(f"Código Postal: {codigo_postal}")
+
+    #consulta a la API
+    print("Consultando datos...")
+
+    # ---  TRY/EXCEPT ---
+
+    # Resultados
+    print("\n--- Resultados de la Búsqueda ---")
+
+    # Destino hard coded
+    print("ayuda en la comunidad: Centro Comunitario Local")
+    
+elif opcion == "2":
+    print("¡registarte!")
+
+else:
+    print("Opción no válida.")
