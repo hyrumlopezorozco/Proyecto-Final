@@ -1,3 +1,9 @@
+"""
+main.py -  
+Hyrum , 11/3/2026
+Delside Manjarrez
+"""
+
 import requests
 def buscar_recursos_por_cp(codigo_postal, category):
     """
